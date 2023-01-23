@@ -1,0 +1,30 @@
+Event ID: 4625
+Log Name: Security
+Source: Microsoft-Windows-Security-Auditing
+Date: 01/23/2023 12:00:00 AM
+Event Type: Failure Audit
+Task Category: Logon
+User: N/A
+Computer: ComputerName
+Description: An account failed to log on.
+Subject:
+    Security ID: NULL SID
+    Account Name: 
+    Account Domain: 
+    Logon ID: 0x0
+Logon Type: 3
+Account For Which Logon Failed:
+    Security ID: NULL SID
+    Account Name: TestUser
+    Account Domain: TestDomain
+Failure Information:
+    Failure Reason: Unknown user name or bad password.
+    Status: 0xc000006d
+    Sub Status: 0xc000006a
+    Process Information:
+        Process ID: 0x0
+        Process Name: 
+    Network Information:
+        Workstation Name: 
+        Source Network Address: 192.168.1.1
+        Source Port: 49152
