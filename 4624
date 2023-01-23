@@ -1,0 +1,32 @@
+Event ID: 4624
+Log Name: Security
+Source: Microsoft-Windows-Security-Auditing
+Date: 01/23/2023 12:00:00 AM
+Event Type: Success Audit
+Task Category: Logon
+User: N/A
+Computer: ComputerName
+Description: An account was successfully logged on.
+Subject:
+    Security ID: S-1-5-21-124525095-708259637-1543119021-1011
+    Account Name: TestUser
+    Account Domain: TestDomain
+    Logon ID: 0x3e7
+Logon Type: 8
+New Logon:
+    Security ID: S-1-5-21-124525095-708259637-1543119021-1011
+    Account Name: TestUser
+    Account Domain: TestDomain
+    Logon ID: 0x3e7
+    Logon GUID: {00000000-0000-0000-0000-000000000000}
+    Process Information:
+        Process ID: 0x1f4
+        Process Name: C:\Windows\System32\winlogon.exe
+    Network Information:
+        Workstation Name: ComputerName
+        Source Network Address: 192.168.1.1
+        Source Port: 49152
+
+This log entry shows that a user named 'TestUser' from domain 'TestDomain' has logged on to the computer 'ComputerName' successfully. The log entry includes details such as the logon ID, logon type, and process information. It also includes the source IP address and port from which the logon request was made, and the name of the workstation that the user logged on from.
+
+Keep in mind that this is just one example of a security log entry, and actual logs will vary depending on your system configuration and the type of security-related events that are being logged.
