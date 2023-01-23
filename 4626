@@ -1,0 +1,15 @@
+Event ID: 4626
+Log Name: Security
+Source: Microsoft-Windows-Security-Auditing
+Date: 01/23/2023 12:00:00 AM
+Event Type: Failure Audit
+Task Category: Logon
+User: N/A
+Computer: ComputerName
+Description: User logoff succeeded.
+Subject:
+    Security ID: S-1-5-21-124525095-708259637-1543119021-1011
+    Account Name: TestUser
+    Account Domain: TestDomain
+    Logon ID: 0x3e7
+Logon Type: 2
